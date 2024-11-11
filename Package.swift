@@ -17,13 +17,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ConvivaAVFoundation",
-            url: "https://github.com/Conviva/ConvivaAVFoundation/raw/4.0.55/Framework/ConvivaAVFoundation.xcframework.zip",
-            checksum: "abc822cecb615a009720dfb727d8daa8b3ae0e2274959cda90e858b1b96d6fe7"),
+            url: "https://github.com/Conviva/ConvivaAVFoundation/raw/4.0.57/Framework/ConvivaAVFoundation.xcframework.zip",
+            checksum: "f055e67ca0a3f4bf660d7fdcc78a44206283ddea8afc0e3bdcbfee5865b1787f"),
         
         .binaryTarget(
             name: "ConvivaSDK",
-            url: "https://github.com/Conviva/ConvivaSDK/raw/4.0.49/Framework/ConvivaSDK.xcframework.zip",
-            checksum: "b94dbe14f499cf41f9c311785d27f4fbb025cc5619f20c772964a2992179bae0"),
+            url: "https://github.com/Conviva/ConvivaSDK/raw/4.0.51/Framework/ConvivaSDK.xcframework.zip",
+            checksum: "fe35596d79000ce403ed2cd695386a95900d1dcdf0cf0ff86efac17f623182c4"),
 
         .target(
               name: "ConvivaAVFoundationTarget",
